@@ -1,0 +1,11 @@
+#pragma once
+#include "CLParcours.h"
+
+class CLparcours3D : public CLParcours
+{
+public:
+	CLparcours3D(int n);
+private:
+	int n;
+};
+
