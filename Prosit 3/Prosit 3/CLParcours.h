@@ -5,7 +5,7 @@ class CLParcours
 {
 public:
 	CLParcours();
-	void ajouterPoint(double x, double y, double z);
+	void ajouterPoint(CLpoint *);
 	float calculDistance();
 	void message() const;
 private:
